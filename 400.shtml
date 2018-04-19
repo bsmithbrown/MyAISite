@@ -3,6 +3,7 @@
 <TITLE>400 Bad Request</TITLE>
 </HEAD><BODY>
 <H1>Bad Request</H1>
+	<img src="images/Bad Request.jpg" alt="custom error image"/>
 There was an error in your request.
 <HR>
 <I><!--#echo var="HTTP_HOST" --></I>
