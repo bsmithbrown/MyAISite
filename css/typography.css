@@ -1,0 +1,22 @@
+/* CSS Document */
+@import url('../fonts/Rahayu.ttf');
+@import url('nav.css');/*css Document*/
+@font-face {
+	font-family: 'Rahayu';
+	src: url('../fonts/Rahayu.ttf')format('truetype');
+}
+
+body {
+	background-color:  #e6a398; 
+}
+
+h1  { 
+	font-family: 'Rahayu';
+	color: black;
+		
+}
+
+nav a {
+	font-family: 'Rahayu';
+	text-decoration: none;	
+}
