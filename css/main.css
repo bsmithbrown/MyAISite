@@ -1,8 +1,42 @@
 @charset "UTF-8";
+
 @import url('html5doctor-reset.css');
 @import url('typography.css');
 @import url('nav.css');
 
+
+/* Main CSS Document for my AI website*/
+
+body {
+	background-color: #e6a398
+
+}
+
 header {
-		min-height: 60px;
+		min-height: 90px;
+		background: url(../Images/headerbg.png) top left repeat;  
+}
+#container {
+	background-image: url(../Images/thai_elementpointsleft.png), url(../Images/thai_elementpointsright.png), url(../Images/thai_elementpointsup.png);
+	background-position: right top, left top, bottom; 
+	background-repeat:no-repeat, no-repeat, no-repeat;
+	min-height: 600px;
+	padding: 30px;
+		
+		
+
+}
+.center {
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+	width: 23%; 
+		
+}
+@media screen and (min-width: 601px) {
+	
+	#wrapper {
+		width: 600px; 
+		margin: 0 auto; 
+	}
 }

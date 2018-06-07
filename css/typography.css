@@ -1,22 +1,60 @@
 /* CSS Document */
 @import url('../fonts/Rahayu.ttf');
 @import url('nav.css');/*css Document*/
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @font-face {
 	font-family: 'Rahayu';
 	src: url('../fonts/Rahayu.ttf')format('truetype');
 }
-
+/* Style the links inside the navigation bar */
+.topnav a {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}/* Add an active class to highlight the current page */
+.active {
+    background-color: #2d5986;
+    color: white;
+}
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+    display: none;
+}
 body {
 	background-color:  #e6a398; 
+}
+
+header li {
+	 text-align: center;
+    list-style: none;
+
 }
 
 h1  { 
 	font-family: 'Rahayu';
 	color: black;
+	text-align: center;
+	font-size: 50px;
+	
+		
 		
 }
 
 nav a {
 	font-family: 'Rahayu';
 	text-decoration: none;	
+}
+p{
+	padding: 20px 0; 
+}
+
+footer p{
+	text-align: center;
+	font-size: 9px; 
+	padding: 20px; 
 }
